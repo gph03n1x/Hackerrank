@@ -15,29 +15,23 @@ void displayPathtoPrincess(int n, char grid[101][101]){
             }
         }
     }
-    if (my-py > 0){ 
-        for (int i=0; i<my-py; i++) {
-            printf("LEFT\n");
-        }
+
+    for (int i=0; i<my-py; i++) {
+        printf("LEFT\n");
     }
-    
-    if (py-my > 0){ 
-        for (int i=0; i<py-my; i++) {
+
+    for (int i=0; i<py-my; i++) {
         printf("RIGHT\n");
-        }
     }
-        
-    if (mx-px > 0){ 
-        for (int i=0; i<mx-px; i++) {
+
+    for (int i=0; i<mx-px; i++) {
         printf("UP\n");
-        }
     }
-    
-    if (px-mx > 0){ 
-        for (int i=0; i<px-mx; i++) {
+
+    for (int i=0; i<px-mx; i++) {
         printf("DOWN\n");
-        }
     }
+
 }
 int main(void) {
 
